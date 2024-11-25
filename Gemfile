@@ -1,15 +1,9 @@
-source "https://rubygems.org"
-ruby RUBY_VERSION
+# If you have OpenSSL installed, we recommend updating
+# the following line to use "https"
+source 'http://rubygems.org'
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-
-# If you have any plugins, put them here!
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-group :jekyll_plugins do
-    gem 'jekyll-paginate'
+group :development do
+  gem 'rake', '~> 10.4.2'
+  gem 'sass', '~> 3.4.10'
+  gem 'jekyll', '~> 2.5.3'
 end
