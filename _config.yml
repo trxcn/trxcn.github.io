@@ -1,4 +1,4 @@
-name: Horizons
-description: Horizons template for Jekyll
+name: TRX 中文网
+description: TRX 最新资讯，最新教程，最新兑换方法
 paginate: 10
-baseurl: '/Horizons-Jekyll-Theme'
+baseurl: ''
