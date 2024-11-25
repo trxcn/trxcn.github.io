@@ -1,9 +1,8 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+# 使用 HTTPS 提升安全性
+source 'https://rubygems.org'
 
-gem 'liquid'
-gem 'redcarpet'
-gem 'github-pages'
-gem 'jekyll'
-gem 'pygments.rb'
+# 使用 GitHub Pages 提供的版本和依赖
+gem 'github-pages', group: :jekyll_plugins
+
+# 如果你需要额外的 gem，可以在这里添加
+gem 'redcarpet' # 例如 Markdown 渲染器
