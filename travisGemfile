@@ -1,6 +1,9 @@
+# If you have OpenSSL installed, we recommend updating
+# the following line to use "https"
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.2' # 自由指定 Jekyll 版本
 gem 'liquid'
 gem 'redcarpet'
+gem 'github-pages'
+gem 'jekyll'
 gem 'pygments.rb'
